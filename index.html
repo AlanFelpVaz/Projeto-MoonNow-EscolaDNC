@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav id="navBar">
+
+        <div id="logo">
+        <img src="./assets/logo.svg" alt="logo moonnow">
+        </div>
+
+        <div>
+            <ul id="navegacao">
+                <li> QUEM SOMOS </li>
+                <li> NOSSO PROPÓSITO </li>
+                <li> SUPORTE </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="sectionPrincipal">
+
+        <div id="conteudoPrincipal">
+            <div id="cadastro">
+                <h1> INSCREVA-SE E<br>
+                    VIAJE PARA A LUA<br>
+                    GRATUITAMENTE
+                </h1>
+
+                <input type="text" placeholder="Nome Completo" class="inputs">
+                <span id="erroNome"></span>
+                <input type="text" placeholder="Email" class="inputs">
+                <span id="erroEmail"></span>
+                
+            </div>
+
+            <div>
+                <button id="button1" onclick="verificar()"> Quero ir pra lua! </button>
+                
+                <button id="button2"> Mais informações </button>
+            </div>
+            <span id="msgButton"></span>
+        </div>
+
+        <div id="imagemPrincipal">
+            <img src="./assets/ilustracao.svg" alt="imagem foguete">
+        </div>
+    </section>
+
+</body>
+    <script src="main.js"></script>
+</html>
